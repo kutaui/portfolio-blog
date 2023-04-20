@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Blog | Kutay Bekleric",
+    "base_url": "https://bookworm-light-astro.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/logo.png",
+    "logo_width": "125",
+    "logo_height": "62",
+    "logo_text": "Kutay Bekleric"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "Kutay Bekleric",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Kutay Bekleric Blog"
+  },
+
+  "params": {
+    "contact_form_action": "submit",
+    "copyright": "Copyright © 2023 by [Kutay](https://www.kutaybekleric.com)"
+  },
+
+  "contactinfo": {
+    "address": "355 S Grand Ave <br/> Los Angeles, CA 90071",
+    "email": "info@bookworm.org",
+    "phone": "+800 567 1234"
+  }
+}

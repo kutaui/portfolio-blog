@@ -1,0 +1,35 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://www.kutaybekleric.com"
+    },
+    {
+      "name": "Contact",
+      "url": "mailto:kutaybekleric@gmail.com"
+    }
+  ],
+  "footer": [
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://www.kutaybekleric.com"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+
+  ]
+}
