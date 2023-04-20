@@ -5,11 +5,14 @@ import Pagination from "@layouts/components/Pagination.astro";
 import Posts from "@layouts/Posts.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { sortByDate } from "@lib/utils/sortFunctions";
+import {inject} from "@vercel/analytics";
 
 const posts = await getSinglePage("posts");
 const sortedPosts = sortByDate(posts);
 const totalPages = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+inject()
+
 ---
 
 <Base>
